@@ -1,0 +1,31 @@
+.card{
+    width: 250px;
+    background-color:rgb(247, 245, 245);
+    margin: 10px;
+}
+.card:hover{
+    border: 1px solid gray;
+}
+.card img{
+    width: 250px;
+}
+.menu-name{
+    font-size: 18px;
+}
+.resto-address{
+    color: rgb(77, 77, 77);
+    text-transform:lowercase;
+    font-size: 16px;
+    padding: 5px;
+}
+.menu-details{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 5px 0px;
+}
+.resto-rating{
+    background-color:#db7c38;
+    padding: 2px;
+    color: white;
+}

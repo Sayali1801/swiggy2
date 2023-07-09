@@ -1,0 +1,10 @@
+.shimar-card-container{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.shimar-card{ 
+    width: 250px;
+    background-color:rgb(224, 222, 222);
+    margin: 10px; 
+    height: 300px;}

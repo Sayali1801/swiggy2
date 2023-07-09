@@ -1,0 +1,32 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+.header-main{
+    display: flex;
+    align-items: center;
+    background-color:rgb(223, 222, 222);
+    
+}
+.header-left{
+    flex: 10%;
+}
+.header-center{
+    flex: 50%;
+}
+.header-left img{
+    height: 70px;
+}
+.header-right{
+flex: 40%;
+}
+.header-right-list{
+    display: flex;
+    justify-content: space-around;
+}
+.header-right-list li{
+    list-style: none;
+    font-size: 20px;
+    text-transform: uppercase;
+    cursor: pointer;
+}
